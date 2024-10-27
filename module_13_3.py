@@ -15,4 +15,5 @@ async def all_messages(message):
     print('all_mes')
     await message.answer('Введите команду /start, чтобы начать общение')
 
-if __name__ == "__main__":    executor.start_polling(dp, skip_updates=True)
+if __name__ == "__main__":  
+    executor.start_polling(dp, skip_updates=True)
